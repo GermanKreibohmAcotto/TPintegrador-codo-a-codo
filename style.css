@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ++++++++++++++Encabezado+++++++++++++++++++*/
+
+.encabezado{
+    background-color: #353A40;
+}
+
+.navEncabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logoEncabezado{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+.seccionesEncabezado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6.5%
+}
+
+.navEncabezado section ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.navEncabezado section ul li{
+    list-style: none;
+    padding-left: 1em;
+}
+
+/* ++++++++++imagen principal++++++++++++++ */
+
+.imagenPrincipal::before{
+    position:absolute ;
+    content:" ";
+    top:0;
+    bottom:0;
+    left:0;
+     right:0;
+    background-color:rgba( 0 , 0 , 0 , .6 ) ;
+}
+
+.textoPrincipal{
+    margin-right: 6.5%;
+}
+
+.botonCt{
+    background-color: #25A944;
+}
+
+/* +++++++++++++++imagen de la playa+++++++++++++++ */
+
+.bg-secondary{
+    background-color: #353A40!important;
+}
+
+/* +++++++++++++++++formulario++++++++++++++++++ */
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.formP{
+    margin-top: -2%;
+    width: 100%;
+    text-align: start;
+    color: #6C757D;
+}
+
+.formTitulo{
+    text-align: center;
+}
+
+.botonColor{
+    background-color: #96C93E!important;
+    border-color: #96C93E;
+}
+
+section p em{
+    text-decoration:underline dotted black;
+    font-style: normal;
+}
+
+/* +++++++++++++++footer+++++++++++++++ */
+
+footer{
+    background-image: linear-gradient(to right, #1a3644, #1a3d4f, #1b445a, #1b4c66, #1c5372);
+}
+
+footer nav{
+    width: 75%;
+    margin: auto;
+}
+
+footer nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+footer nav ul li{
+    list-style: none;
+    color: white;
+    padding: 2em;
+}
+
