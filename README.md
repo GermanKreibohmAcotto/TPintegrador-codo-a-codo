@@ -1,5 +1,5 @@
-﻿# Trabajo Practico Integrador Codo a Codo 4.0
-## Trabajo Practico Integrador Front End👨‍💻
+﻿# TP Integrador Codo a Codo 4.0
+## TP Integrador Front End👨‍💻
 
 **¡Replicar la imagen utilizando todos los conocimientos vistos!🖼️**
 
